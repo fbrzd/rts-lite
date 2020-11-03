@@ -1,0 +1,30 @@
+sonido cuando spawnea un recurso ?
+script team-controller -> folk give resources ?
+otra opcion ademas de players, zones: speed -> determina time-interval y base-speed(*)(**)
+  * nueva var statica de los folks
+  ** ojo con el max speed y el bug de la colision(***)
+  *** comprobar en build, el editor puede ir lento
+
+art lv 1 (background (3), towns)
+------------------------------------------------- IDEAS BONUS
+recurso++, tesoro [no list]
+
+no +recursos, volcan [no list]
+cambiar posicion, terreno [no list]
+
+unidad +daño, armas
+recoger +recurso, herramientas
+bartime +rapida, magia?
+------------------------------------------------- BUGS
+balancear el modo infinito:
+  - score inicial de los pueblos enemigos
+  - la duracion de la paz
+  - texto con el numero de rondas
+  - paloma que cruza el cielo indica cuando termina la paz (random dy, constante dx)
+  - la velocidad de las unidades se dispara -> hacer caballos menos frecuentes, limitar el max-speed
+  - resetear colores de los pueblos
+------------------------------------------------ SPRITES
+paloma (paz)
+button infinite
+button lan
+button back main menu
